@@ -7,9 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="horse-framework-common" />
+        <module name="common" />
         <module name="web" />
+        <module name="web-safety" />
+        <module name="dubbo" />
         <module name="demo" />
+        <module name="web-tool" />
+        <module name="feign" />
+        <module name="redis" />
+        <module name="nacos" />
+        <module name="seata" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

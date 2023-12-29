@@ -20,7 +20,7 @@ import org.springframework.context.annotation.Import;
  * @author liao
  */
 @Configuration
-@MapperScan(basePackages = "com.msb.**.mapper")
+@MapperScan(basePackages = "com.xinghuo.**.mapper")
 @Import(MybatisShardStatementInterceptor.class)
 public class MybatisPlusConfig {
 
