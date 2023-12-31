@@ -22,6 +22,8 @@
         <module>feign</module>
         <module>seata</module>
         <module>dubbo</module>
+        <module>job</module>
+        <module>rocketmq</module>
     </modules>
 
     <dependencyManagement>

@@ -7,15 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common" />
-        <module name="web" />
-        <module name="web-safety" />
+        <module name="rocketmq" />
         <module name="dubbo" />
         <module name="demo" />
-        <module name="web-tool" />
-        <module name="feign" />
         <module name="redis" />
         <module name="nacos" />
+        <module name="im-sdk" />
+        <module name="im-api" />
+        <module name="common" />
+        <module name="web" />
+        <module name="im-service" />
+        <module name="web-safety" />
+        <module name="web-tool" />
+        <module name="feign" />
         <module name="seata" />
       </profile>
     </annotationProcessing>
